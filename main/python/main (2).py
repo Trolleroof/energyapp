@@ -148,7 +148,7 @@ def submit():
         return "Form submitted successfully!"
 
 
-@app.route('/prediction')
+@app.route('/pred')
 def new_page():
     return render_template('prediction.html')
 
